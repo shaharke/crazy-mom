@@ -1,0 +1,6 @@
+<section data-ng-controller="ListsController" data-ng-init="findOne()">
+	<span>{{list.created | date:'medium'}}</span> /
+	<span>{{list.user.name}}</span>
+	<h2>{{list.title}} <a data-ng-show="global.user._id == list.user._id" href="/#!/lists/{{list._id}}/edit">edit</a></h2>
+	<div>{{list.content}}</div>
+</section>

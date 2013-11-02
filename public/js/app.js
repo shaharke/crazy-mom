@@ -1,4 +1,4 @@
-window.app = angular.module('mean', ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.route', 'mean.system', 'mean.articles']);
+window.app = angular.module('crazy', ['ngCookies', 'ngResource', 'ui.bootstrap', 'ui.route', 'crazy.system', 'crazy.lists']);
 
-angular.module('mean.system', []);
-angular.module('mean.articles', []);
+angular.module('crazy.system', []);
+angular.module('crazy.lists', []);

@@ -1,5 +1,5 @@
 window.bootstrap = function() {
-    angular.bootstrap(document, ['mean']);
+    angular.bootstrap(document, ['crazy']);
 };
 
 window.init = function() {

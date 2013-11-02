@@ -38,7 +38,7 @@ var ItemSchema = new Schema({
  * Validations
  */
 
-ItemSchema.schema.path('priority').validate(function (value) {
+ItemSchema.path('priority').validate(function (value) {
   return /normal|high/i.test(value);
 }, 'Invalid priority');
 

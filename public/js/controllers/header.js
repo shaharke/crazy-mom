@@ -1,12 +1,12 @@
-angular.module('mean.system').controller('HeaderController', ['$scope', 'Global', function ($scope, Global) {
+angular.module('crazy.system').controller('HeaderController', ['$scope', 'Global', function ($scope, Global) {
     $scope.global = Global;
 
     $scope.menu = [{
-        "title": "Articles",
-        "link": "articles"
+        "title": "Lists",
+        "link": "lists"
     }, {
-        "title": "Create New Article",
-        "link": "articles/create"
+        "title": "Create New Lists",
+        "link": "lists/create"
     }];
     
     $scope.isCollapsed = false;
