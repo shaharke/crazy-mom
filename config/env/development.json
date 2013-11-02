@@ -1,0 +1,26 @@
+{
+    "db": "mongodb://localhost/crazymom",
+    "app": {
+        "name": "Crazy Mom: Home for couples with children"
+    },
+    "facebook": {
+        "clientID": "APP_ID",
+        "clientSecret": "APP_SECRET",
+        "callbackURL": "http://localhost:3000/auth/facebook/callback"
+    },
+    "twitter": {
+        "clientID": "CONSUMER_KEY",
+        "clientSecret": "CONSUMER_SECRET",
+        "callbackURL": "http://localhost:3000/auth/twitter/callback"
+    },
+    "github": {
+        "clientID": "APP_ID",
+        "clientSecret": "APP_SECRET",
+        "callbackURL": "http://localhost:3000/auth/github/callback"
+    },
+    "google": {
+        "clientID": "276982027960-co0jlrf7ag4k1uh3n2tmo3va61fb026h.apps.googleusercontent.com",
+        "clientSecret": "3pmrk_ucfchkIMUpbxwSFLSD",
+        "callbackURL": "http://localhost:3000/auth/google/callback"
+    }
+}
