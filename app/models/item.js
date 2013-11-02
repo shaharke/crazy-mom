@@ -39,7 +39,7 @@ var ItemSchema = new Schema({
  */
 
 ItemSchema.path('priority').validate(function (value) {
-  return /normal|high/i.test(value);
+  return '/normal|high/i'.test(value);
 }, 'Invalid priority');
 
 ItemSchema.path('name').validate(function(name) {
